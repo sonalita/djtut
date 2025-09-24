@@ -41,8 +41,13 @@ Built using Python 3.12. This version is based on `uv` and `ruff` so those most 
  - Learn how to make a base page template and include blocks from html fragments.2
   
 ## Adding detail page (#06-detail-page)
- - learned how to add a detaul page, including generating a url from the master html.
+ - learned how to add a detail page, including generating a url from the master html.
  - Add a new URL route
  - Add a new details view
- - Add a the page_detail template
- - Learned about `uv run manage.py collectstatics` for deploying to a real server.a
+ - Add a the page_detail templates
+ - Learned about `uv run manage.py collectstatics` for deploying to a real server
+
+## Adding Django forms 
+ - Add new post icon button and  form, with button only visible to logged in user.
+ - Add edit post icon button and form, with button only visible to logged in user.
+  
