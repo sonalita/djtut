@@ -1,6 +1,7 @@
 # ---- Virtual env / uv ----
 .venv/
 .uv/
+__pycache__/
 
 # ---- Django ----
 db.sqlite3
