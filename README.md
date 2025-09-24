@@ -30,9 +30,12 @@ Built using Python 3.12. This version is based on `uv` and `ruff` so those most 
 ## First static view (#03-static-view)
 - Added urls
 - created a view
-- Created the view template
+- Created the view template. **Note:** the app/templates/app structure is recommended as Django flattens all templates into one virtual namespace, so this structure prevents naming conflicts between apps.
 
 ## ORM and styling (#04-orm)
  - See the [tutorial page](https://tutorial.djangogirls.org/en/django_orm/) for using `uv run manage.py shell` and experimenting with QuerySets.
  - Added dynamic rendering of model
  - Added bootstrap - I used a Catppuccin color scheme and separated out the css more than in the tutorial.
+
+## Extending templates (#05-template-extension)
+ - Learn how to make a base page template and include blocks from html fragments.
