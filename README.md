@@ -26,3 +26,8 @@ Built using Python 3.12. This version is based on `uv` and `ruff` so those most 
 - Create and run migrations `uv run manage.py makemigrations blog` `uv run manage.py migrate blog`
 - Create superuser with `uv run manage.py createsuperuser` (Hh...dj)
 - use http://localhost:8000/admin to create 6 posts, some published, some not.
+
+## First static view (#03-static-view)
+- Added urls
+- created a view
+- Created the view template
