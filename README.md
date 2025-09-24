@@ -39,3 +39,10 @@ Built using Python 3.12. This version is based on `uv` and `ruff` so those most 
 
 ## Extending templates (#05-template-extension)
  - Learn how to make a base page template and include blocks from html fragments.2
+  
+## Adding detail page (#06-detail-page)
+ - learned how to add a detaul page, including generating a url from the master html.
+ - Add a new URL route
+ - Add a new details view
+ - Add a the page_detail template
+ - Learned about `uv run manage.py collectstatics` for deploying to a real server.a
