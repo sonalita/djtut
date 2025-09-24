@@ -14,6 +14,9 @@ db.sqlite3
 media/
 staticfiles/
 
+# If you have a static/ directory at the project root 
+/static/
+
 # ---- IDE/editor junk ----
 .vscode/
 .idea/
