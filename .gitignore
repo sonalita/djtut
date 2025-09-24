@@ -1,0 +1,29 @@
+# ---- Virtual env / uv ----
+.venv/
+.uv/
+
+# ---- Django ----
+db.sqlite3
+*.sqlite3-journal
+*.log
+*.pot
+*.py,cover
+
+# Media/static (if you ever add user-uploaded files)
+media/
+staticfiles/
+
+# ---- IDE/editor junk ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ---- Testing ----
+.coverage
+pytest_cache/
+htmlcov/
+
+# ---- OS / misc ----
+Thumbs.db
