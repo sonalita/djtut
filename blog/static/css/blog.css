@@ -1,0 +1,79 @@
+body {
+    background-color: var(--ctp-base);
+    color: var(--ctp-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--ctp-mantle);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--ctp-surface0);
+}
+
+h1 a,
+h2 a {
+    color: var(--ctp-mauve);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+h1 a:hover,
+h2 a:hover {
+    color: var(--ctp-pink);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: var(--ctp-blue);
+    margin-top: 0;
+}
+
+article {
+    background-color: var(--ctp-surface0);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--ctp-surface1);
+}
+
+time {
+    color: var(--ctp-subtext0);
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+p {
+    color: var(--ctp-text);
+    margin: 15px 0;
+}
+
+a {
+    color: var(--ctp-sapphire);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ctp-sky);
+    text-decoration: underline;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: var(--ctp-peach);
+    background: none;
+    border-color: var(--ctp-peach);
+}
+
+.btn-secondary:hover {
+    color: var(--ctp-base);
+    background-color: var(--ctp-peach);
+}
